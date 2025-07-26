@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performances</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+     <nav>
+         <div class="link">
+         <ul>
+           <li><a href="{{ url_for('main') }}" id="a1">Home</a></li>
+          
+           <li><a href="{{ url_for('index') }}">Prediction</a></li>
+            <li><a href="{{ url_for('logout') }}">Logout</a></li>
+           <ul>
+         </div>
+    </nav>
+   <div class="section-title ">
+           
+          <center>
+		  
+	  
+ </br></br>
+<div><span style="margin-left:50px;color:black"><font size="12">Accuracy:</font>
+<span style="margin-left:80px;color:black"><font size="12">98.80%</font>
+</div> 
+</br>
+</br>
+<div><span style="margin-left:50px;color:black"><font size="12">Precision:</font>
+<span style="margin-left:80px;color:black"><font size="12">90.00% </font>
+</div>
+</br>
+</br>    
+ <div><span style="margin-left:50px;color:black"><font size="12">Recall:</font>
+<span style="margin-left:140px;color:black"><font size="12">90.00%</font>
+</div> 
+</br>
+</br>
+<div><span style="margin-left:50px;color:black"><font size="12">F-Measure:</font>
+<span style="margin-left:40px;color:black"><font size="12">90.00%</font>
+</div> 
+</br>
+</br>  
+ </br>
+</br>
+</br>
+</br>
+</br>
+</center>
+<div class="col-lg-8 mx-auto">
+          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+            
+                       
+                      <div><span style="margin-left:300px;color:red"><font size="10"> Confusion Matrix </font></div>
+					  </br>
+					  </br>
+					  
+				<center>	    <div><img style="margin-left:200px;width:800px;height:500px;" src="../static/download.png"</div></center>
+                               
+                         
+						       
+        </div>
+</body>
+</html>
+
+
+<!---css---->
+ <style>
+     .card {
+         width: 23rem;
+         margin: auto;
+         margin-bottom: 20px;
+         box-shadow: 10px 10px 5px;
+     }
+     .card-img-top{
+         height:20rem;
+     
+     }
+     img {
+         display: block;
+         margin: auto;
+         max-width: 100%;
+      
+     }
+     
+     body{
+     padding:2rem;
+     background-color:#52caf2;
+     margin:0 0 0 0;
+     
+     }
+     h1{
+     padding:2rem;
+     }
+     .link ul li a{
+     color:black;
+     font-size:19px;
+     margin-left: 25px;
+     text-decoration: none;
+     font-weight: bold;
+
+     }
+
+     .link ul li a:hover {
+       color: white;
+        text-decoration: none;
+
+     }
+
+     nav {
+       position: absolute;
+       top: 40;
+       left: 0;
+     }
+
+     nav ul {
+       list-style: none;
+       margin: 0;
+       padding: 0;
+     }
+
+     nav li {
+       display: inline-block;
+       margin-right: 10px;
+     }
+
+     nav li:last-child {
+       margin-right: 0;
+     }
+
+     nav a {
+       text-decoration: none;
+       color: #333;
+       font-weight: bold;
+     }
+ </style>
